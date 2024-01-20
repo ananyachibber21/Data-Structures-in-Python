@@ -30,6 +30,13 @@ class LinkedList{
 		}
 	}
 	
+	// Insert at the beginning
+	public void InsertAtBeg(int data) {
+		Node newNode = new Node(data);
+		newNode.next = head;
+		head = newNode;
+	}
+	
 	// Delete at a position by value
 	public void deleteByValue(int data) {
 			
@@ -87,6 +94,7 @@ public class SinglyLinkedList {
         list.insert(2);
         list.insert(3);
         list.insert(4);
+        list.InsertAtBeg(5);
 
         System.out.println("Original List:");
         list.display();
