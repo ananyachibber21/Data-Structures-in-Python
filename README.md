@@ -25,11 +25,11 @@ A Linked List is a data structure composed of nodes: containers that each hold a
 
 There are several types of linked lists. Here are some of the most common types of linked lists that come in interviews and technical rounds:
 
-- Singly Linked List: In a singly linked list, each node points to the next node in the sequence. It is a linear data structure where elements are connected sequentially.
+- **Singly Linked List:** In a singly linked list, each node points to the next node in the sequence. It is a linear data structure where elements are connected sequentially.
 Doubly Linked List:
 
-- Doubly Linked List: Each node contains a data element and two pointers, one pointing to the next node and another pointing to the previous node. This allows for traversal in both directions.
+- **Doubly Linked List:** Each node contains a data element and two pointers, one pointing to the next node and another pointing to the previous node. This allows for traversal in both directions.
 
-- Circular Linked List: In a circular linked list, the last node points back to the first node, forming a circle. It can be singly or doubly linked.
+- **Circular Linked List:** In a circular linked list, the last node points back to the first node, forming a circle. It can be singly or doubly linked.
 
-- Doubly Circular Linked List: A doubly circular linked list is a variation of a doubly linked list where the last node in the list points back to the first node, forming a circular structure. In addition to the features of a doubly linked list, it allows for bidirectional traversal and circular iteration.
+- **Doubly Circular Linked List:** A doubly circular linked list is a variation of a doubly linked list where the last node in the list points back to the first node, forming a circular structure. In addition to the features of a doubly linked list, it allows for bidirectional traversal and circular iteration.
