@@ -48,15 +48,15 @@ class DoublyCircular {
         }
     }
     
-    // Delete a Node
+ // Delete a Node
     void deleteNode(int key) {
         if (head == null) {
             System.out.println("The list is empty");
             return;
         }
-        
+
         Node current = head;
-        while (current != null) {
+        do {
             if (current.data == key) {
                 if (current == head && current == tail) {
                     head = tail = null; // List becomes empty
@@ -76,10 +76,11 @@ class DoublyCircular {
                 return;
             }
             current = current.next;
-        }
-        
+        } while (current != head);
+
         System.out.println("Node with key " + key + " not found in the circular linked list.");
     }
+
     
     // Display a Node
     void display() {
